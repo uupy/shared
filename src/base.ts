@@ -8,7 +8,7 @@ export const toRawType = (val: unknown): string => objToStr(val).slice(8, -1)
 export const isString = (val: unknown): val is string => typeof val === 'string'
 
 export const isNumber = (val: unknown): val is number => typeof val === 'number'
-
+             
 export const isFunction = (val: unknown): val is typeof Function =>
   typeof val === 'function'
 

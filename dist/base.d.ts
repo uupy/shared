@@ -1,0 +1,9 @@
+export declare const noop: () => undefined;
+export declare const objToStr: (val: unknown) => string;
+export declare const toRawType: (val: unknown) => string;
+export declare const isString: (val: unknown) => val is string;
+export declare const isNumber: (val: unknown) => val is number;
+export declare const isFunction: (val: unknown) => val is FunctionConstructor;
+export declare const isArray: (arg: any) => arg is any[];
+export declare const isPlainObject: (val: unknown) => val is object;
+export declare const isDate: (val: unknown) => val is Date;
