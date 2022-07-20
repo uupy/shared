@@ -32,7 +32,8 @@
   "lint-staged": {
     "*./src**/*.{js,ts,json,md}": [
       "prettier --write",
-      "pnpm run lint"
+      "pnpm run lint",
+      "pnpm run build"
     ]
   },
   "devDependencies": {
